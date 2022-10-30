@@ -289,9 +289,15 @@ body {
 	font-weight: bold;
 	text-transform: uppercase;
 	color: #b59f5b;
+	transition: all .3s linear;
+}
+
+.trend-card-link:hover {
+	text-decoration: underline;
 }
 
 .trend-card-text {
+	display: inline-block;
 	margin: 0;
 	margin-top: 5px;
 	font-size: 20px;
@@ -299,6 +305,12 @@ body {
 	font-weight: bold;
 	text-transform: uppercase;
 	color: #fff;
+	cursor: pointer;
+	transition: color .3s linear;
+}
+
+.trend-card-text:hover {
+	color: #b59f5b;
 }
 /*  trends end  */
 
